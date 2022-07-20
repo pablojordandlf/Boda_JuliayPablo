@@ -1,6 +1,4 @@
-/** @type {import('next-sitemap').IConfig} */
-const config = {
+module.exports = {
     siteUrl: 'https://example.com',
-  }
-
-  export default config
+    generateRobotsTxt: true,
+};
