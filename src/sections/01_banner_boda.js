@@ -69,9 +69,9 @@ const styles = {
       },
     },
     imageBox: {
-      display: ['block', null, null, 'block'],
+      display: ['flex', null, null, 'flex'],
       justifyContent: 'center',
-      ml: ["50px", null, null, '-110px', '-115px', '-150px', '-210px', '-270px'],
+      ml: ["0px", null, null, '-110px', '-115px', '-150px', '-210px', '-270px'],
       mr: [0, null, null, '-145px', '-160px', '-180px', '-220px', '-290px'],
       mt: ["-70px", null, null, '40px', 4, 7, 0],
       mb: [0, null, null, null, '-45px', '-70px', null, '-115px'],

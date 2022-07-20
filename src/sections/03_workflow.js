@@ -11,26 +11,26 @@ const data = [
   {
     id: 1,
     title: 'PRE-BODA',
-    text:
-      '2 de junio',
+    fecha: '2 de junio',
+    lugar: 'Por definir'
   },
   {
     id: 2,
     title: 'CEREMONIA',
-    text:
-      '3 de junio',
+    fecha: '3 de junio',
+    lugar: 'Parroquia del Santísimo Salvador, Valladolid'
   },
   {
     id: 3,
     title: 'CELEBRACIÓN',
-    text:
-      '3 de junio',
+    fecha: '3 de junio',
+    lugar: 'Lago de Maíto'
   },
   {
     id: 4,
     title: 'DESAYUNO POST-BODA',
-    text:
-      '4 de junio',
+    fecha: '4 de junio',
+    lugar: 'Por definir'
   },
 ];
 
@@ -50,7 +50,8 @@ export default function WorkFlow() {
               <Box sx={styles.iconBox}>{`0${item.id}`}</Box>
               <Box sx={styles.wrapper}>
                 <Heading sx={styles.wrapper.title}>{item.title}</Heading>
-                <Text sx={styles.wrapper.subTitle}>{item.text}</Text>
+                <Text sx={styles.wrapper.subTitle}>{item.fecha}</Text>
+                <Text sx={styles.wrapper.subTitle}>{item.lugar}</Text>
               </Box>
             </Box>
           ))}
