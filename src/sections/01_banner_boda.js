@@ -1,7 +1,7 @@
 /** @jsx jsx */
 import { jsx } from 'theme-ui';
 import { Container, Box, Heading, Text, Image, Button, Flex } from 'theme-ui';
-import BannerImg from 'assets/salon_v1.png';
+import BannerImg from 'assets/STD3.png';
 
 
 export default function Banner_Boda() {
