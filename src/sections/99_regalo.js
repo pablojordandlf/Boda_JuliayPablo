@@ -14,7 +14,7 @@ export default function Art() {
           title="NUESTRO MAYOR REGALO SOIS VOSOTROS"
           slogan2=""
           slogan3="PERO SI QUERÉIS HACERNOS UN REGALO, ¡AQUÍ ESTÁ NUESTRO NÚMERO DE CUENTA!"
-          slogan4="ES06 0182 5322 2002 0097 6082"
+          slogan4="ESXX XXXX XXXX XXXX XXXX XXXX"
         />
         
       </Container>
