@@ -16,7 +16,6 @@ import ModalVideo from 'react-modal-video';
 import { IoIosPlay } from 'react-icons/io';
 
 import ServiceThumb from 'assets/service-thumb.png';
-import shapePattern from 'assets/shape-pattern1.png';
 
 import Smart from 'assets/services/smart.svg';
 import Secure from 'assets/services/secure.svg';
@@ -65,10 +64,6 @@ export default function ServiceSection() {
               <IoIosPlay />
             </span>
           </Button>
-
-          <Box sx={styles.shapeBox}>
-            <Image src={shapePattern} alt="Shape" />
-          </Box>
         </Box>
         <Box sx={styles.contentBox}>
           <TextFeature subTitle={data.subTitle} title={data.title} />

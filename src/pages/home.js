@@ -1,11 +1,12 @@
 import React from 'react';
 
-import SEO from 'components/seo';
 import Layout from 'components/layout';
 
 import Banner_Boda from '../sections/01_banner_boda';
 import Bienvenida from '../sections/02_bienvenida';
 import WorkFlow from '../sections/03_workflow';
+
+import KeyFeature from '../sections/04_detalle_01';
 
 import useRouter from 'next/router'
 
@@ -15,14 +16,12 @@ export default function Home() {
   console.log(getCookieConsentValue());
   return (
     <Layout>
-      <SEO title="Concept Brand - Art Sharing" />
 
       <Banner_Boda />
       <Bienvenida />
       <WorkFlow /> {/*INFORMACIÓN BÁSICA*/}
 
-      {/*<Package />*/}
-      {/*<KeyFeature /> BENEFICIOS*/}
+      <KeyFeature />
 
 
       {/*<TestimonialCard /> TESTIMONIOS DE LA PEÑITA*/}

@@ -6,6 +6,7 @@ export default function TextFeature({
   title,
   description,
   description2,
+  description3,
   btnName,
   btnURL = '#',
 }) {
@@ -28,6 +29,11 @@ export default function TextFeature({
       {description2 && (
         <Text as="p" className="description" sx={styles.description}>
           {description2}
+        </Text>
+      )}
+      {description3 && (
+        <Text as="p" className="description" sx={styles.description}>
+          {description3}
         </Text>
       )}
 
