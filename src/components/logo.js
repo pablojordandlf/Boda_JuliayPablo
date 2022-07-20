@@ -15,7 +15,7 @@ export default function Logo({ src, ...rest }) {
       }}
       {...rest}
     >
-      <Image src={logo} alt="Concept logo" width="130"/>
+      <Image src={logo} alt="Julia y Pablo logo" width="80"/>
     </Link>
   );
 }
