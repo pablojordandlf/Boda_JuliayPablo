@@ -3,24 +3,24 @@ import { jsx } from 'theme-ui';
 import { Container, Grid } from 'theme-ui';
 import SectionHeader from 'components/section-header';
 import TeamCard from 'components/team-card';
-import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedin } from 'react-icons/fa';
+import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedin, FaHotel } from 'react-icons/fa';
 
-import Member1 from 'assets/team/pablo.jpg';
-import Member2 from 'assets/team/Julia.jpg';
+import Member1 from 'assets/team/HOTEL1.jpg';
+import Member2 from 'assets/team/HOTEL1.jpg';
 
 const data = [
   {
     id: 1,
     imgSrc: Member2,
-    altText: 'Julia Sánchez',
-    title: 'Julia Sánchez',
-    designation: 'Founder',
+    altText: 'HOTEL 1',
+    title: 'HOTEL 1',
+    designation: '-10% descuento',
     socialProfile: [
       {
         id: 1,
-        name: 'LinkedIn',
-        path: 'https://www.linkedin.com/in/julia-sanchez08/',
-        icon: <FaLinkedin />,
+        name: 'HOTEL1',
+        path: '',
+        icon: <FaHotel />,
       },
     ],
     email: ""
@@ -28,15 +28,15 @@ const data = [
   {
     id: 2,
     imgSrc: Member1,
-    altText: 'Pablo Jordán',
-    title: 'Pablo Jordán',
-    designation: 'Founder',
+    altText: 'HOTEL 2',
+    title: 'HOTEL 2',
+    designation: '-15% descuento',
     socialProfile: [
       {
         id: 1,
         name: 'LinkedIn',
-        path: 'https://www.linkedin.com/in/pablojordan/',
-        icon: <FaLinkedin />,
+        path: '',
+        icon: <FaHotel />,
       },
       {/*
         id: 3,
@@ -54,7 +54,7 @@ export default function TeamSection() {
     <section id="team">
       <Container>
         <SectionHeader
-          slogan="Equipo Concept"
+          slogan="ALOJAMIENTOS"
           title=""
         />
         <Grid sx={styles.grid}>
