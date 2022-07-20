@@ -10,7 +10,7 @@ export default function Banner_Boda() {
       <Container sx={styles.banner.container}>
         <Box sx={styles.banner.contentBox}>
           <Heading as="h1" variant="heroPrimary">
-            Julia y Pablo
+            Julia & Pablo
           </Heading>
           <Text as="p" variant="heroSecondary">
             Valladolid<br />
@@ -77,7 +77,7 @@ const styles = {
       overflow: 'hidden',
       img: {
         position: 'relative',
-        height: [245, 'auto'],
+        height: [245, 800],
       },
       width: '100%',
     },
