@@ -60,7 +60,6 @@ const styles = {
     
     contentBox: {
       flexShrink: 0,
-
       width: ['100%', 450, 550, '350px', '410px', '485px'],
       mx: 'auto',
       pb: ['0px', null, null, 0],
@@ -73,7 +72,7 @@ const styles = {
       justifyContent: 'center',
       ml: ["0px", null, null, '-110px', '-115px', '-150px', '-210px', '-270px'],
       mr: [0, null, null, '-145px', '-160px', '-180px', '-220px', '-290px'],
-      mt: ["-70px", null, null, '40px', 4, 7, 0],
+      mt: ["-30px", null, null, '40px', 4, 7, 0],
       mb: [0, null, null, null, '-45px', '-70px', null, '-115px'],
       overflow: 'hidden',
       img: {

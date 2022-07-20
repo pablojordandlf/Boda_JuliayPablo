@@ -24,7 +24,7 @@ export default function Art() {
 
 const styles = {
   banner: {
-    pt: ['20px', '145px', '155px', '170px', null, null, '180px', '0px'],
+    pt: ['20px', '145px', '155px', '170px', null, null, '80px', '50px'],
     pb: [2, null, 0, null, 2, 0, null, 7],
     position: 'relative',
     zIndex: 2

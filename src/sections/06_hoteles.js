@@ -54,7 +54,7 @@ export default function TeamSection() {
     <section id="team">
       <Container>
         <SectionHeader
-          slogan="ALOJAMIENTOS"
+          slogan4="ALOJAMIENTOS"
           title=""
         />
         <Grid sx={styles.grid}>

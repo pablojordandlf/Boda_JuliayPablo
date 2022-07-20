@@ -47,7 +47,7 @@ const styles = {
     alignItems: 'center',
     justifyContent: 'space-between',
     flexWrap: ['wrap', null, null, 'nowrap'],
-    pt: [0, 7, 0, null, 7],
+    pt: [6, 7, 0, null, 8],
     pb: [0, 7, 0, null, 0],
   },
   contentBox: {
@@ -69,7 +69,7 @@ const styles = {
     '> img': {
       position: 'relative',
       zIndex: 1,
-      height: [310, 'auto'],
+      height: ['auto', 'auto'],
     },
   },
   shapeBox: {

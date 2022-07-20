@@ -72,7 +72,7 @@ const styles = {
     py: [8, null, 9, null, null, 10],
   },
   grid: {
-    mb: -1,
+    mb: -1  ,
     pt: 0,
     gridGap: [
       '35px 0',

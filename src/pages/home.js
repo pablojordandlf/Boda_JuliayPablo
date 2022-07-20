@@ -7,9 +7,8 @@ import Bienvenida from '../sections/02_bienvenida';
 import WorkFlow from '../sections/03_workflow';
 import Detalle_01 from '../sections/04_detalle_01';
 import Detalle_02 from '../sections/04_detalle_02';
-import Regalo from '../sections/05_regalo';
-
-import TEST from '../sections/06_hoteles'
+import Regalo from '../sections/99_regalo';
+import Hoteles from '../sections/06_hoteles'
 
 import useRouter from 'next/router'
 
@@ -24,10 +23,11 @@ export default function Home() {
       <Bienvenida />
       <WorkFlow /> {/*INFORMACIÓN BÁSICA*/}
       <Detalle_01 />
-      <Detalle_02 />
+      <Hoteles />
+      
       <Regalo />
 
-      <TEST />
+      
 
       {/*<TestimonialCard /> TESTIMONIOS DE LA PEÑITA*/}
       {/*<TeamSection /> EQUIPO*/}
