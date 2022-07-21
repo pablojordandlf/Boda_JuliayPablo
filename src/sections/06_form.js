@@ -1,24 +1,28 @@
 /** @jsx jsx */
 import { jsx } from 'theme-ui';
-import { Container } from 'theme-ui';
+import { Container, Button, Box } from 'theme-ui';
 import SectionHeader from 'components/section-header';
+import TextFeature from 'components/text-feature';
 
+const data = {
+  btnName: 'FORMULARIO',
+  btnURL: 'https://forms.gle/zokFAafH5xj8YYP66',
+};
 
 export default function Art() {
   
   return (
-    <section sx={styles.banner}>
-      <Container>
-        <SectionHeader
-          slogan=""
-          title="NUESTRO MAYOR REGALO SOIS VOSOTROS"
-          slogan2=""
-          slogan3="PERO SI QUERÉIS HACERNOS UN REGALO, ¡AQUÍ ESTÁ NUESTRO NÚMERO DE CUENTA!"
-          slogan4="ESXX XXXX XXXX XXXX XXXX XXXX"
-        />
-        
+      <Container sx={styles.container}>
+          <SectionHeader
+            slogan4="POR FAVOR, NOS AYUDÁIS MUCHO COMPLETANDO EL SIGUIENTE FORMULARIO CONFIRMANDO VUESTRA ASISTENCIA"
+          />
+          <Box sx={styles.button}>
+            <TextFeature
+              btnName={data.btnName}
+              btnURL={data.btnURL}
+            />
+          </Box>
       </Container>
-    </section>
   );
 }
 
@@ -28,5 +32,11 @@ const styles = {
     pb: [2, null, 0, null, 2, 0, null, 7],
     position: 'relative',
     zIndex: 2
+  },
+  container: {
+    alignItems: 'center',
+  },
+  button: {
+    ml: ['0px', '0px', '0px', '270px', '395px', '480px', '180px', '538px'],
   }
 };
