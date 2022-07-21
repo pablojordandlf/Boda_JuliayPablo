@@ -3,6 +3,7 @@ import { jsx } from 'theme-ui';
 import { Container, Box, Heading, Text, Image, Button, Flex } from 'theme-ui';
 import BannerImg from 'assets/STD3.png';
 
+import PatternBG from 'assets/patternBG.png';
 
 export default function Banner_Boda() {
   return (
@@ -28,6 +29,8 @@ export default function Banner_Boda() {
 
 const styles = {
   banner: {
+    backgroundColor: '#99A496',
+    backgroundImage: `url(${PatternBG})`,
     pt: ['140px', '145px', '155px', '170px', null, null, '180px', '115px'],
     pb: [2, null, 0, null, 2, 0, null, 5],
     position: 'relative',
