@@ -51,7 +51,7 @@ const data = [
 
 export default function TeamSection() {
   return (
-    <section id="team">
+    <section id="alojamiento">
       <Container>
         <SectionHeader
           slogan4="ALOJAMIENTOS"

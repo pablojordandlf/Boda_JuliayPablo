@@ -4,7 +4,11 @@ export default [
     label: 'INFO BÁSICA',
   },
   {
-    path: 'regalo',
-    label: 'FORMULARIO',
+    path: 'transporte',
+    label: 'TRANSPORTE',
+  },
+  {
+    path: 'alojamiento',
+    label: 'ALOJAMIENTO',
   },
 ];

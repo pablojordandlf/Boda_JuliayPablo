@@ -8,6 +8,8 @@ import { DrawerProvider } from '../../contexts/drawer/drawer.provider';
 import MobileDrawer from './mobile-drawer';
 import menuItems from './header.data';
 
+import useRouter from 'next/router'
+
 export default function Header({ className }) {
   return (
     <DrawerProvider>
@@ -30,6 +32,15 @@ export default function Header({ className }) {
               </Link>
             ))}
           </Flex>
+
+          <Button
+            className="donate__btn"
+            variant="secondary"
+            aria-label="Get Started"
+            onClick={() => useRouter.push('https://forms.gle/zokFAafH5xj8YYP66')}
+          >
+            FORMULARIO
+          </Button>
 
           {/*<MobileDrawer />*/}
         </Container>
