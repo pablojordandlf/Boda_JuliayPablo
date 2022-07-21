@@ -22,6 +22,7 @@ const Bienvenida = ({ targetDate }) => {
             slogan4= {<ShowCounter days={days} hours={hours} minutes={minutes} seconds={seconds} />}
             slogan2="ESTAMOS MUY FELICES DE QUE PODÁIS COMPARTIR CON NOSOTROS UN DÍA TAN IMPORTANTE"
           />
+
         </Container>
       </section>
     );
@@ -47,7 +48,7 @@ const ExpiredNotice = () => {
 const ShowCounter = ({ days, hours, minutes, seconds }) => {
   return (
       <SectionHeader
-        slogan= {<DateTimeDisplay value={days} type={'Days'} isDanger={days <= false}/> } 
+        title= {<DateTimeDisplay value={days} type={'Days'} isDanger={days <= false}/> } 
       />
   );
 };
