@@ -15,12 +15,14 @@ import useRouter from 'next/router'
 import CookieConsent, { Cookies, getCookieConsentValue } from "react-cookie-consent";
 
 export default function Home() {
-  
+  const dateTime = new Date("06/03/2023 23:59:59").getTime();
+
   return (
     <Layout>
 
       <Banner_Boda />
-      <Bienvenida />
+      <Bienvenida targetDate={dateTime}/>
+
       <WorkFlow /> {/*INFORMACIÓN BÁSICA*/}
       <Detalle_01 />
       <Hoteles />
