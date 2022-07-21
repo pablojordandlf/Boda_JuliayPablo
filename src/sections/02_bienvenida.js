@@ -56,8 +56,8 @@ const ShowCounter = ({ days, hours, minutes, seconds }) => {
 
 const styles = {
   banner: {
-    pt: ['20px', '145px', '155px', '170px', null, null, '180px', '175px'],
-    pb: [2, null, 0, null, 2, 0, null, 7],
+    pt: ['60px', '145px', '155px', '170px', null, null, '180px', '175px'],
+    pb: [0, null, 0, null, 2, 0, null, 0],
     position: 'relative',
     zIndex: 2
   }
