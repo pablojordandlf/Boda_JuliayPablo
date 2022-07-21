@@ -13,10 +13,16 @@ export default function Regalo() {
           slogan=""
           title="NUESTRO MAYOR REGALO SOIS VOSOTROS"
           slogan2=""
-          slogan3="PERO SI QUERÉIS HACERNOS UN REGALO, ¡AQUÍ ESTÁ NUESTRO NÚMERO DE CUENTA!"
+          slogan3="PERO SI QUERÉIS TENER UN DETALLE CON NOSOTROS, ¡AQUÍ ESTÁ NUESTRO NÚMERO DE CUENTA!"
           slogan4="ESXX XXXX XXXX XXXX XXXX XXXX"
         />
-        
+        <SectionHeader
+          slogan=""
+          title=""
+          slogan2="O SI PREFERIS, BIZUM AL"
+          slogan3="679018258 (JULIA)"
+          slogan4="660087618 (PABLO)"
+        />
       </Container>
     </section>
   );
