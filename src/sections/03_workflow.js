@@ -1,36 +1,45 @@
 /** @jsx jsx */
 import { jsx } from 'theme-ui';
-import { Container, Grid, Box, Heading, Text } from 'theme-ui';
+import { Container, Grid, Box, Heading, Text, Image } from 'theme-ui';
 import SectionHeader from 'components/section-header';
+import Images from 'components/image';
 
 import PatternBG from 'assets/fondo2.jpg';
 import ArrowOdd from 'assets/arrowOdd.svg';
 import ArrowEven from 'assets/arrowEven.svg';
+import preboda from 'assets/preboda1.png'
+import misa from 'assets/misa.png'
+import fiesta from 'assets/fiesta.png'
+import desayuno from 'assets/desayuno.png'
 
 const data = [
   {
     id: 1,
     title: 'PRE-BODA',
-    fecha: '2 de junio',
-    lugar: 'Por definir'
+    fecha: '2 de junio 2023',
+    lugar: 'Pucelana + Sitio por definir',
+    image: preboda
   },
   {
     id: 2,
     title: 'CEREMONIA',
-    fecha: '3 de junio',
-    lugar: 'Parroquia del Santísimo Salvador, Valladolid'
+    fecha: '18:00, 3 de junio 2023',
+    lugar: 'Parroquia del Santísimo Salvador, Valladolid',
+    image: misa
   },
   {
     id: 3,
     title: 'CELEBRACIÓN',
-    fecha: '3 de junio',
-    lugar: 'Lago de Maíto'
+    fecha: '20:00, 3 de junio 2023',
+    lugar: 'Finca Lago de Maíto',
+    image: fiesta
   },
   {
     id: 4,
     title: 'DESAYUNO POST-BODA',
-    fecha: '4 de junio',
-    lugar: 'Por definir'
+    fecha: '4 de junio 2023',
+    lugar: 'Café Ibérico (C/ Acera de Recoletos, 6, Valladolid)',
+    image: desayuno
   },
 ];
 
@@ -47,7 +56,8 @@ export default function WorkFlow() {
         <Grid sx={styles.grid}>
           {data.map((item) => (
             <Box sx={styles.card} key={item.id}>
-              <Box sx={styles.iconBox}>{`0${item.id}`}</Box>
+              {/*<Box sx={styles.iconBox}>{`0${item.id}`}</Box>*/}
+              <Images src = {item.image} sx={styles.iconBox}/>
               <Box sx={styles.wrapper}>
                 <Heading sx={styles.wrapper.title}>{item.title}</Heading>
                 <Text sx={styles.wrapper.subTitle}>{item.fecha}</Text>

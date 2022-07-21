@@ -14,7 +14,7 @@ export default function Art() {
   return (
       <Container sx={styles.container}>
           <SectionHeader
-            slogan4="POR FAVOR, NOS AYUDÁIS MUCHO COMPLETANDO EL SIGUIENTE FORMULARIO CONFIRMANDO VUESTRA ASISTENCIA"
+            slogan4="POR FAVOR, NOS AYUDÁIS MUCHO SI COMPLETÁIS EL SIGUIENTE FORMULARIO CONFIRMANDO VUESTRA ASISTENCIA"
           />
           <Box sx={styles.button}>
             <TextFeature
