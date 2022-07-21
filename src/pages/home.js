@@ -16,7 +16,7 @@ import useRouter from 'next/router'
 import CookieConsent, { Cookies, getCookieConsentValue } from "react-cookie-consent";
 
 export default function Home() {
-  const dateTime = new Date("06/03/2023 23:59:59").getTime();
+  const dateTime = new Date("06/03/2023 17:59:59").getTime();
 
   return (
     <Layout>

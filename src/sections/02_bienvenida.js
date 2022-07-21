@@ -7,7 +7,6 @@ import { useCountdown } from '../components/useCountdown';
 import DateTimeDisplay from '../components/zz_datetimedisplay';
 
 
-
 const Bienvenida = ({ targetDate }) => {
   const [days, hours, minutes, seconds] = useCountdown(targetDate);
 
@@ -48,7 +47,13 @@ const ExpiredNotice = () => {
 const ShowCounter = ({ days, hours, minutes, seconds }) => {
   return (
       <SectionHeader
-        title= {<DateTimeDisplay value={days} type={'Days'} isDanger={days <= false}/> } 
+        slogan= "QUEDAN"
+        title= {<DateTimeDisplay
+          value1={days} type1={'Days'} isDanger1={days <= false}
+          value2={hours} type2={'Hour'} isDanger2={hours <= false}
+          value3={minutes} type3={'Minute'} isDanger3={minutes <= false}
+          value4={seconds} type4={'Second'} isDanger4={seconds <= false}
+          /> }
       />
   );
 };
