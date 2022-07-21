@@ -34,9 +34,12 @@ const styles = {
     zIndex: 2
   },
   container: {
+    pt: ['20px', '145px', '155px', '170px', null, null, '80px', '50px'],
+    pb: [7, null, 0, null, 2, 0, null, 7],
     alignItems: 'center',
   },
   button: {
     ml: ['0px', '0px', '0px', '270px', '395px', '480px', '180px', '538px'],
+
   }
 };
