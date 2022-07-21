@@ -1,39 +1,16 @@
-import React, { useContext } from 'react';
+import React, { useContext, useState } from 'react';
 import { Box } from 'theme-ui';
 import { Scrollbars } from 'react-custom-scrollbars';
-import Drawer from 'components/drawer';
+import Drawer from '../../components/drawer';
 import { DrawerContext } from '../../contexts/drawer/drawer.context';
 import { IoMdClose, IoMdMenu } from 'react-icons/io';
 import { Link } from 'react-scroll';
-import {
-  FaFacebookF,
-  FaTwitter,
-  FaGithubAlt,
-  FaDribbble,
-} from 'react-icons/fa';
 import menuItems from './header.data';
 
-const social = [
-  {
-    path: '/',
-    icon: <FaFacebookF />,
-  },
-  {
-    path: '/',
-    icon: <FaTwitter />,
-  },
-  {
-    path: '/',
-    icon: <FaGithubAlt />,
-  },
-  {
-    path: '/',
-    icon: <FaDribbble />,
-  },
-];
 
 const MobileDrawer = () => {
   const { state, dispatch } = useContext(DrawerContext);
+  const [isDrawerOpen, setIsDrawerOpen] = useState(false);
 
   // Toggle drawer
   const toggleHandler = React.useCallback(() => {
@@ -50,8 +27,8 @@ const MobileDrawer = () => {
           <IoMdMenu size="26px" />
         </Box>
       }
-      open={state.isOpen}
-      toggleHandler={toggleHandler}
+      open={isDrawerOpen}
+      toggleHandler={() => setIsDrawerOpen((prevState) => !prevState)}
       closeButton={<IoMdClose size="24px" color="#000000" />}
       drawerStyle={styles.drawer}
       closeBtnStyle={styles.close}
@@ -74,20 +51,13 @@ const MobileDrawer = () => {
             ))}
           </Box>
 
-          <Box sx={styles.menuFooter}>
-            <Box sx={styles.social}>
-              {social.map(({ path, icon }, i) => (
-                <Box as="span" key={i} sx={styles.social.icon}>
-                  <Link to={path}>{icon}</Link>
-                </Box>
-              ))}
-            </Box>
-          </Box>
         </Box>
       </Scrollbars>
     </Drawer>
   );
 };
+
+export default MobileDrawer;
 
 const styles = {
   handler: {
@@ -197,4 +167,3 @@ const styles = {
   },
 };
 
-export default MobileDrawer;

@@ -8,14 +8,14 @@ import WorkFlow from '../sections/03_workflow';
 import Detalle_01 from '../sections/04_detalle_01';
 import Detalle_02 from '../sections/04_detalle_02';
 import Regalo from '../sections/99_regalo';
-import Hoteles from '../sections/06_hoteles'
+import Hoteles from '../sections/05_hoteles'
 
 import useRouter from 'next/router'
 
 import CookieConsent, { Cookies, getCookieConsentValue } from "react-cookie-consent";
 
 export default function Home() {
-  console.log(getCookieConsentValue());
+  
   return (
     <Layout>
 
@@ -24,15 +24,9 @@ export default function Home() {
       <WorkFlow /> {/*INFORMACIÓN BÁSICA*/}
       <Detalle_01 />
       <Hoteles />
-      
       <Regalo />
-
       
-
-      {/*<TestimonialCard /> TESTIMONIOS DE LA PEÑITA*/}
-      {/*<TeamSection /> EQUIPO*/}
       <br />
-
       
       <CookieConsent
         debug={true}

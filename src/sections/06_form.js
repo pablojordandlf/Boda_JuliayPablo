@@ -4,10 +4,10 @@ import { Container } from 'theme-ui';
 import SectionHeader from 'components/section-header';
 
 
-export default function Regalo() {
+export default function Art() {
   
   return (
-    <section id = "regalo" sx={styles.banner}>
+    <section sx={styles.banner}>
       <Container>
         <SectionHeader
           slogan=""
