@@ -11,10 +11,10 @@ export default function Regalo() {
       <Container>
         <SectionHeader
           slogan=""
-          title="NUESTRO MAYOR REGALO SOIS VOSOTROS"
+          title="ESTE DÍA CORRE POR NUESTRA CUENTA"
           slogan2=""
-          slogan3="PERO SI QUERÉIS TENER UN DETALLE CON NOSOTROS, ¡AQUÍ ESTÁ NUESTRO NÚMERO DE CUENTA!"
-          slogan4="ESXX XXXX XXXX XXXX XXXX XXXX"
+          slogan3="Y NUESTRA CUENTA ES..."
+          slogan4="ES06 0182 5322 2002 0097 6082"
         />
         <SectionHeader
           slogan=""

@@ -28,6 +28,7 @@ export default function CoreFeature() {
             description3={data.description3}
             btnName={data.btnName}
             btnURL={data.btnURL}
+            
           />
         </Box>
         <Box sx={styles.thumbnail}>
@@ -76,4 +77,27 @@ const styles = {
     zIndex: -1,
     display: ['none', 'inline-block', 'none', null, 'inline-block'],
   },
+  wrapper: {
+    width: '100%',
+    display: 'flex',
+    flexDirection: 'column',
+    mt: '-5px',
+    title: {
+      fontSize: [3, null, 4, null, null, 5],
+      color: 'white',
+      lineHeight: [1.4, null, null, null, null, 1.55],
+      pr: [0, null, null, null, null, 2],
+      mb: [2, 3],
+    },
+
+    subTitle: {
+      fontSize: 1,
+      fontWeight: 400,
+      lineHeight: [1.85, null, null, 1.9, 2],
+      color: 'white',
+      opacity: 0.75,
+      pr: [0, null, null, null, null, 5],
+    },
+  },
+
 };

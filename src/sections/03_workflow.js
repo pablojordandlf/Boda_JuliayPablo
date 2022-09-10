@@ -16,29 +16,30 @@ const data = [
   {
     id: 1,
     title: 'PRE-BODA',
-    fecha: '2 de junio 2023',
-    lugar: 'Pucelana + Sitio por definir',
+    fecha: '📅 2 de junio',
+    lugar: '📍 Sigue tu Pucelana y nos vemos',
+    lugar2: 'a las 23:00 en Café Julepe',
     image: preboda
   },
   {
     id: 2,
     title: 'CEREMONIA',
-    fecha: '18:00, 3 de junio 2023',
-    lugar: 'Parroquia del Santísimo Salvador, Valladolid',
+    fecha: '📅 18:00, 3 de junio 2023',
+    lugar: '📍 Parroquia del Santísimo Salvador, Valladolid',
     image: misa
   },
   {
     id: 3,
     title: 'CELEBRACIÓN',
-    fecha: '20:00, 3 de junio 2023',
-    lugar: 'Finca Lago de Maíto',
+    fecha: '📅 20:00, 3 de junio 2023',
+    lugar: '📍 Finca Lago de Maíto',
     image: fiesta
   },
   {
     id: 4,
     title: 'DESAYUNO POST-BODA',
-    fecha: '4 de junio 2023',
-    lugar: 'Café Ibérico (C/ Acera de Recoletos, 6, Valladolid)',
+    fecha: '📅 4 de junio 2023',
+    lugar: '📍 Café Ibérico (C/ Acera de Recoletos, 6, Valladolid)',
     image: desayuno
   },
 ];
@@ -48,20 +49,20 @@ export default function WorkFlow() {
     <section id = "workflow" sx={styles.workflow}>
       <Container>
         <SectionHeader
-          slogan="INFORMACIÓN BÁSICA"
-          title=""
+          subtitle="INFORMACIÓN BÁSICA"
           isWhite={true}
         />
 
         <Grid sx={styles.grid}>
           {data.map((item) => (
             <Box sx={styles.card} key={item.id}>
-              {/*<Box sx={styles.iconBox}>{`0${item.id}`}</Box>*/}
+              
               <Images src = {item.image} sx={styles.iconBox}/>
               <Box sx={styles.wrapper}>
                 <Heading sx={styles.wrapper.title}>{item.title}</Heading>
                 <Text sx={styles.wrapper.subTitle}>{item.fecha}</Text>
                 <Text sx={styles.wrapper.subTitle}>{item.lugar}</Text>
+                <Text sx={styles.wrapper.subTitle}>{item.lugar2}</Text>
               </Box>
             </Box>
           ))}
@@ -79,7 +80,7 @@ const styles = {
     backgroundPosition: 'center center',
     backgroundSize: 'cover',
     position: 'relative',
-    py: [8, null, 9, null, null, 10],
+    py: [8, null, 9, null, null, 9],
   },
   grid: {
     mb: -1  ,

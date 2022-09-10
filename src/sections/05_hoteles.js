@@ -4,6 +4,7 @@ import { Container, Grid } from 'theme-ui';
 import SectionHeader from 'components/section-header';
 import TeamCard from 'components/team-card';
 import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedin, FaHotel } from 'react-icons/fa';
+import TextFeature from 'components/text-feature';
 
 import Member1 from 'assets/team/HOTEL1.jpg';
 import Member2 from 'assets/team/HOTEL1.jpg';
@@ -12,14 +13,15 @@ const data = [
   {
     id: 1,
     imgSrc: Member2,
-    altText: 'HOTEL 1',
-    title: 'HOTEL 1',
-    designation: '-10% descuento',
+    altText: 'HOTEL ENARA',
+    title: 'HOTEL ENARA',
+    phone:'983 30 02 11',
+    designation: 'Descuento -10%',
     socialProfile: [
       {
         id: 1,
-        name: 'HOTEL1',
-        path: '',
+        name: 'HOTEL ENARA',
+        path: 'https://www.eleenaraboutiquehotel.com/',
         icon: <FaHotel />,
       },
     ],
@@ -28,35 +30,49 @@ const data = [
   {
     id: 2,
     imgSrc: Member1,
-    altText: 'HOTEL 2',
-    title: 'HOTEL 2',
-    designation: '-15% descuento',
+    altText: 'HOTEL GAREUS',
+    title: 'HOTEL GAREUS',
+    phone:'983 21 43 33',
+    designation: '-10% descuento',
     socialProfile: [
       {
         id: 1,
         name: 'LinkedIn',
-        path: '',
+        path: 'https://www.hotelgareus.com/',
         icon: <FaHotel />,
-      },
-      {/*
-        id: 3,
-        name: 'instagram',
-        path: '#',
-        icon: <FaInstagram />,  */
       },
     ],
     email: ""
   },
+  {
+    id: 3,
+    imgSrc: Member1,
+    altText: 'HOTEL COLOQUIO DE LOS PERROS',
+    title: 'HOTEL COLOQUIO DE LOS PERROS',
+    phone:'983 04 40 35',
+    designation: '-5€ / noche y habitación',
+    socialProfile: [
+      {
+        id: 1,
+        name: 'LinkedIn',
+        path: 'https://elcoloquio.zenithoteles.com/es/',
+        icon: <FaHotel />,
+      },
+    ],
+    email: ""
+  },
+
 ];
 
 export default function TeamSection() {
   return (
     <section id="alojamiento">
       <Container>
-        <SectionHeader
-          slogan4="ALOJAMIENTOS"
-          title=""
-        />
+
+        <TextFeature
+            subTitle="ALOJAMIENTOS"
+        ></TextFeature>
+
         <Grid sx={styles.grid}>
           {data.map((item) => (
             <TeamCard
@@ -67,6 +83,7 @@ export default function TeamSection() {
               designation={item.designation}
               social={item.socialProfile}
               email={item.email}
+              phone={item.phone}
             />
           ))}
         </Grid>

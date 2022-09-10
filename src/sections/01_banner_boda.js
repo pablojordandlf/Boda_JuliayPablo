@@ -1,7 +1,8 @@
 /** @jsx jsx */
 import { jsx } from 'theme-ui';
-import { Container, Box, Heading, Text, Image, Button, Flex } from 'theme-ui';
+import { Container, Box, Heading, Text, Image,  Button, Flex } from 'theme-ui';
 import BannerImg from 'assets/STD3.png';
+import SectionHeader from 'components/section-header';
 
 import PatternBG from 'assets/Castillo_norham.jpg';
 {/*patternBG.png*/}
@@ -14,12 +15,18 @@ export default function Banner_Boda() {
           <Heading as="h1" variant="heroPrimary">
             Julia & Pablo
           </Heading>
-          <Text as="p" variant="heroSecondary">
+          <Text 
+            as="p" 
+            variant="heroSecondary"
+            sx={{
+              fontSize: 3, 
+              px: 2,
+            }}
+          >
             Valladolid<br />
             3 de junio, 2023 <br />
           </Text>
         </Box>
-
         <Box sx={styles.banner.imageBox}>
           <Image src={BannerImg} alt="banner"/>
         </Box>

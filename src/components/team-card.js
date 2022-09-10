@@ -2,7 +2,7 @@
 import { jsx } from 'theme-ui';
 import { Text, Heading, Image, Box, Link } from 'theme-ui';
 
-export default function TeamCard({ src, altText, title, designation, social, email }) {
+export default function TeamCard({ src, altText, title, designation, social, email, phone }) {
   return (
     <Box sx={styles.card}>
       <Image key={`image-${title}`} src={src} alt={altText} sx={styles.memberThumb} />
@@ -15,6 +15,9 @@ export default function TeamCard({ src, altText, title, designation, social, ema
         </Text>
         <Text key={`email-${title}`}className="info__designation" sx={styles.infoWrapper.email}>
           {email}
+        </Text>
+        <Text key={`phone-${title}`}className="info__designation" sx={styles.infoWrapper.email}>
+          {phone}
         </Text>
       </Box>
       <Box key={`social-box-${title}`} sx={styles.socialShare} className="social__share">

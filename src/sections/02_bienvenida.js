@@ -1,6 +1,6 @@
 /** @jsx jsx */
 import { jsx } from 'theme-ui';
-import { Container } from 'theme-ui';
+import { Container, Text } from 'theme-ui';
 import SectionHeader from 'components/section-header';
 
 import { useCountdown } from '../components/useCountdown';
@@ -15,14 +15,13 @@ const Bienvenida = ({ targetDate }) => {
   } else {
     return (
       <section sx={styles.banner}>
-        <Container>
+        
           <SectionHeader
-            title= "BIENVENIDOS"
+            title2= "BIENVENIDOS"
             slogan4= {<ShowCounter days={days} hours={hours} minutes={minutes} seconds={seconds} />}
-            slogan2="ESTAMOS MUY FELICES DE QUE PODÁIS COMPARTIR CON NOSOTROS UN DÍA TAN IMPORTANTE"
+            slogan3="ESTAMOS MUY FELICES DE QUE PODÁIS COMPARTIR CON NOSOTROS UN DÍA TAN IMPORTANTE"
           />
-
-        </Container>
+        
       </section>
     );
   }
@@ -35,7 +34,7 @@ const ExpiredNotice = () => {
     <section sx={styles.banner}>
         <Container>
           <SectionHeader
-            title= "BIENVENIDOS"
+            title2= "BIENVENIDOS"
             slogan= "VIVAN LOS NOVIOS"
             slogan4="ESTAMOS MUY FELICES DE QUE PODÁIS COMPARTIR CON NOSOTROS UN DÍA TAN IMPORTANTE"
           />
@@ -46,15 +45,18 @@ const ExpiredNotice = () => {
 
 const ShowCounter = ({ days, hours, minutes, seconds }) => {
   return (
+    <Container>
+      <Text><br /></Text>
       <SectionHeader
         slogan= "QUEDAN"
-        title= {<DateTimeDisplay
+        title3= {<DateTimeDisplay
           value1={days} type1={'Days'} isDanger1={days <= false}
           value2={hours} type2={'Hour'} isDanger2={hours <= false}
           value3={minutes} type3={'Minute'} isDanger3={minutes <= false}
           value4={seconds} type4={'Second'} isDanger4={seconds <= false}
           /> }
       />
+    </Container>
   );
 };
 
@@ -62,7 +64,7 @@ const ShowCounter = ({ days, hours, minutes, seconds }) => {
 
 const styles = {
   banner: {
-    pt: ['60px', '145px', '155px', '170px', null, null, '180px', '175px'],
+    pt: ['30px', '105px', '105px', '100px', null, null, '110px', '85px'],
     pb: [0, null, 0, null, 2, 0, null, 0],
     position: 'relative',
     zIndex: 2

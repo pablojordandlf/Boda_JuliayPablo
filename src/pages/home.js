@@ -23,7 +23,6 @@ export default function Home() {
 
       <Banner_Boda />
       <Bienvenida targetDate={dateTime}/>
-
       <WorkFlow /> {/*INFORMACIÓN BÁSICA*/}
       <Detalle_01 />
       <Hoteles />
@@ -32,7 +31,7 @@ export default function Home() {
       
       <br />
       
-      <CookieConsent
+      {/*<CookieConsent
         debug={true}
         buttonText="Permitir"
         //enableDeclineButton
@@ -46,20 +45,10 @@ export default function Home() {
           <button onClick={() => useRouter.replace('/cookies')}>
             Leer más
           </button>
-      </CookieConsent>
+      </CookieConsent>*/}
       
     </Layout>
     
   );
   
 }
-
-const styles = {
-  banner: {
-    pt: ['20px', '145px', '155px', '170px', null, null, '180px', '175px'],
-    pb: [2, null, 0, null, 2, 0, null, 7],
-    position: 'relative',
-    zIndex: 2
-  },
-};
-

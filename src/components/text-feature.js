@@ -64,7 +64,7 @@ const styles = {
     flexDirection: 'column',
     mt: -1,
     subTitle: {
-      fontSize: [0, null, 1],
+      fontSize: [5, null, 10],
       color: 'primary',
       textTransform: 'uppercase',
       fontWeight: '700',
@@ -73,10 +73,10 @@ const styles = {
       letterSpacing: ['1.5px', null, '2px'],
     },
     title: {
-      fontSize: ['24px', null, '28px', '30px', '36px', '42px', null, '48px'],
+      fontSize: ['15px', null, '16px', '17px', '18px', '19px', null, '22px'],
       color: 'heading_secondary',
       lineHeight: [1.3, null, null, null, 1.2],
-      fontWeight: '700',
+      fontWeight: '600',
       letterSpacing: '-.5px',
       mb: 5,
     },
