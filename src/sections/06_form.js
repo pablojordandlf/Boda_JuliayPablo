@@ -20,11 +20,16 @@ export default function Art() {
           />
 
           <Box sx={styles.button}>
+            {/*
             <TextFeature
               btnName={data.btnName}
               btnURL={data.btnURL}
-            />
+            />   
+            */}
             
+            <Button variant="primary" aria-label="FORMULARIO" onClick={() => useRouter.replace('https://forms.gle/zokFAafH5xj8YYP66')}>
+              FORMULARIO
+            </Button>
 
           </Box>
       </Container>

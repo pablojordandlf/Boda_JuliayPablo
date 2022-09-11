@@ -4,7 +4,7 @@ import { Container, Grid, Box, Heading, Text, Image } from 'theme-ui';
 import SectionHeader from 'components/section-header';
 import Images from 'components/image';
 
-import PatternBG from 'assets/fondo2.jpg';
+import PatternBG from 'assets/lago.jpg';
 import ArrowOdd from 'assets/arrowOdd.svg';
 import ArrowEven from 'assets/arrowEven.svg';
 import preboda from 'assets/preboda1.png'
@@ -48,11 +48,6 @@ export default function WorkFlow() {
   return (
     <section id = "workflow" sx={styles.workflow}>
       <Container>
-        <SectionHeader
-          subtitle="INFORMACIÓN BÁSICA"
-          isWhite={true}
-        />
-
         <Grid sx={styles.grid}>
           {data.map((item) => (
             <Box sx={styles.card} key={item.id}>
