@@ -7,16 +7,18 @@ import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedin, FaHotel } from 'react-
 import TextFeature from 'components/text-feature';
 
 import Member1 from 'assets/team/HOTEL1.jpg';
-import Member2 from 'assets/team/HOTEL1.jpg';
+import Hotel1 from 'assets/01_Enara.png';
+import Hotel2 from "assets/01_Gareus.png";
+import Hotel3 from "assets/01_zenit_elcoloquio.png"
 
 const data = [
   {
     id: 1,
-    imgSrc: Member2,
+    imgSrc: Hotel1,
     altText: 'HOTEL ENARA',
     title: 'HOTEL ENARA',
     phone:'983 30 02 11',
-    designation: 'Descuento -10%',
+    designation: '-10% Descuento',
     socialProfile: [
       {
         id: 1,
@@ -29,11 +31,11 @@ const data = [
   },
   {
     id: 2,
-    imgSrc: Member1,
+    imgSrc: Hotel2,
     altText: 'HOTEL GAREUS',
     title: 'HOTEL GAREUS',
     phone:'983 21 43 33',
-    designation: '-10% descuento',
+    designation: '-10% Descuento',
     socialProfile: [
       {
         id: 1,
@@ -46,7 +48,7 @@ const data = [
   },
   {
     id: 3,
-    imgSrc: Member1,
+    imgSrc: Hotel3,
     altText: 'HOTEL COLOQUIO DE LOS PERROS',
     title: 'HOTEL COLOQUIO DE LOS PERROS',
     phone:'983 04 40 35',
@@ -68,10 +70,9 @@ export default function TeamSection() {
   return (
     <section id="alojamiento">
       <Container>
-
-        <TextFeature
-            subTitle="ALOJAMIENTOS"
-        ></TextFeature>
+        <SectionHeader
+            title = "ALOJAMIENTOS"
+          />
 
         <Grid sx={styles.grid}>
           {data.map((item) => (
@@ -105,3 +106,5 @@ const styles = {
     ],
   },
 };
+
+
