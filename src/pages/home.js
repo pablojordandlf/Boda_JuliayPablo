@@ -10,9 +10,6 @@ import Regalo from '../sections/99_regalo';
 import Hoteles from '../sections/05_hoteles';
 import Form from '../sections/06_form';
 
-import useRouter from 'next/router'
-
-import CookieConsent, { Cookies, getCookieConsentValue } from "react-cookie-consent";
 
 export default function Home() {
   const dateTime = new Date("06/03/2023 17:59:59").getTime();
@@ -27,24 +24,6 @@ export default function Home() {
       <Hoteles />
       <Form />
       <Regalo />
-      
-      <br />
-      
-      {/*<CookieConsent
-        debug={true}
-        buttonText="Permitir"
-        //enableDeclineButton
-        //declineButtonText="No Permitir"
-        hideOnAccept={true}
-        cookieValue={true}
-
-      >
-          Utilizamos cookies propias y de terceros durante la navegación por el sitio web, con la finalidad de permitir el acceso a las funcionalidades de la página web, extraer estadísticas de tráfico y mejorar la experiencia del usuario.
-          
-          <button onClick={() => useRouter.replace('/cookies')}>
-            Leer más
-          </button>
-      </CookieConsent>*/}
       
     </Layout>
     

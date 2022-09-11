@@ -5,8 +5,7 @@ import { Link } from 'react-scroll';
 import Logo from 'components/logo';
 import LogoDark from 'assets/logo1.svg';
 import { DrawerProvider } from '../../contexts/drawer/drawer.provider';
-import MobileDrawer from './mobile-drawer';
-import menuItems from './header.data';
+import menuItems from './header_pucelana.data';
 
 import useRouter from 'next/router'
 
@@ -32,15 +31,6 @@ export default function Header({ className }) {
               </Link>
             ))}
           </Flex>
-
-          <Button
-            className="donate__btn"
-            variant="secondary"
-            aria-label="Get Started"
-            onClick={() => useRouter.push('/pucelana')}
-          >
-            PUCELANA
-          </Button>
 
           <Button
             className="donate__btn"
