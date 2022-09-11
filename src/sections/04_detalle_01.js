@@ -8,9 +8,9 @@ import FeatureThumb from 'assets/Valladolid1.jpg';
 const data = {
   subTitle: 'Transporte',
   title: 'CÓMO LLEGAR A VALLADOLID',
-  description1: '- TREN (1 hora)',
-  description2: '- COCHE / BUS (2 horas)',
-  description3: '- AVIÓN A MADRID + TREN',
+  description1: '🚆 TREN (1 hora)',
+  description2: '🚗 COCHE / BUS (2 horas)',
+  description3: '✈️ AVIÓN A MADRID + 🚆 TREN',
   btnName: 'Web Renfe',
   btnURL: 'https://venta.renfe.com/vol/search.do?c=_7QRn',
 };

@@ -71,6 +71,7 @@ const styles = {
       mb: [2, 3],
       lineHeight: 1.5,
       letterSpacing: ['1.5px', null, '2px'],
+      
     },
     title: {
       fontSize: ['15px', null, '16px', '17px', '18px', '19px', null, '22px'],
@@ -79,6 +80,7 @@ const styles = {
       fontWeight: '600',
       letterSpacing: '-.5px',
       mb: 5,
+    
     },
   },
   description: {

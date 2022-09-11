@@ -16,13 +16,7 @@ export default function Regalo() {
           slogan3="Y NUESTRA CUENTA ES..."
           slogan4="ES06 0182 5322 2002 0097 6082"
         />
-        <SectionHeader
-          slogan=""
-          title=""
-          slogan2="O SI PREFERIS, BIZUM AL"
-          slogan3="679018258 (JULIA)"
-          slogan4="660087618 (PABLO)"
-        />
+        
       </Container>
     </section>
   );

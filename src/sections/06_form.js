@@ -1,6 +1,6 @@
 /** @jsx jsx */
 import { jsx } from 'theme-ui';
-import { Container, Button, Box } from 'theme-ui';
+import { Container, Text, Box, Button } from 'theme-ui';
 import SectionHeader from 'components/section-header';
 import TextFeature from 'components/text-feature';
 
@@ -13,14 +13,19 @@ export default function Art() {
   
   return (
       <Container sx={styles.container}>
+          <Text><br /></Text>
           <SectionHeader
+            title = "ASISTENCIA"
             slogan4="POR FAVOR, NOS AYUDÁIS MUCHO SI COMPLETÁIS EL SIGUIENTE FORMULARIO CONFIRMANDO VUESTRA ASISTENCIA"
           />
+
           <Box sx={styles.button}>
             <TextFeature
               btnName={data.btnName}
               btnURL={data.btnURL}
             />
+            
+
           </Box>
       </Container>
   );
@@ -40,6 +45,6 @@ const styles = {
   },
   button: {
     ml: ['0px', '0px', '0px', '270px', '395px', '480px', '180px', '538px'],
-
+    
   }
 };
