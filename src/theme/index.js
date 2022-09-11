@@ -265,6 +265,7 @@ export default {
       '&:hover': {
         boxShadow: 'rgba(214, 209, 212, 0.8) 0px 9px 20px -5px',
       },
+      
     },
     whiteButton: {
       variant: 'buttons.defaultBtn',
