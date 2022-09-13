@@ -42,9 +42,9 @@ export default function Pucelana() {
 
       <SectionHeader 
         title = "LA PUCELANA"
-        slogan2 = ""
-        slogan3 = "A continuación, os dejamos los restaurantes elegidos para 'La Pucelana', y una o dos recomendaciones por local."
-        slogan4 = "Os recomendamos acompañar las tapas con vinos de la región (Ribera del Duero para vino tinto y Rueda para vino blanco)."
+        slogan = "Para los que venís de fuera, hemos preparado "
+        slogan3 = "Un recorrido con los restaurantes que más nos gustan para poder tapear como un pucelano más"
+        slogan4 = "¡Ah! No olvides pedir tu tapa con un buen vino de la tierra (os recomendamos Ribera de Duero para el vino tinto, y Rueda para el vino blanco)"
       />
 
       <Container sx={styles.containerBox}>
@@ -207,8 +207,8 @@ export default function Pucelana() {
         <Box sx={styles.contentBox}>
           <TextFeature
             subTitle="Cárcava"
-            title="C/"
-            description="Recomendación: Lo mejor en este sitio es pedir Tostas variadas según lo que tengan."
+            title="C/ Cascajares, 2, Valladolid"
+            description="Recomendación: Lo mejor en este sitio es pedir Tostas variadas según disponibilidad en carta."
             description2=""
             description3=""
             btnName=""
@@ -227,7 +227,7 @@ export default function Pucelana() {
             subTitle="El Bar"
             title="C/ Menéndez Pelayo, 8, Valladolid"
             description="Recomendación: Tarta de queso con chocolate blanco"
-            description2="Tienen buena bodega, y muy buen producto."
+            description2="Vais a acertar con todo lo que pidáis en El Bar, pero a nosotros nos vuelve locos su tarta de queso"
             description3=""
             btnName=""
             btnURL=""
@@ -245,7 +245,7 @@ export default function Pucelana() {
             title="C/ Lencería, 2"
             description= ""
             description2="Helados muy vallisoletanos y mucho vallisoletanos."
-            description3="Precio: medio"
+            description3=""
             btnName=""
             btnURL=""
           />
@@ -254,6 +254,10 @@ export default function Pucelana() {
           <Image src={Iborra} alt="Iborra" />
         </Box>
       </Container>
+
+      <SectionHeader 
+        slogan4 = "¡Ah! No olvides pedir tu tapa con un buen vino de la tierra (os recomendamos Ribera de Duero para el vino tinto, y Rueda para el vino blanco)"
+      />
 
     </section>
   );

@@ -15,7 +15,7 @@ import desayuno from 'assets/desayuno.png'
 const data = [
   {
     id: 1,
-    title: 'PRE-BODA',
+    title: 'PUCELANA + PRE-BODA',
     fecha: '📅 2 de junio',
     lugar: '📍 Sigue tu Pucelana y nos vemos',
     lugar2: 'a las 23:00 en Café Julepe',
@@ -58,6 +58,7 @@ export default function WorkFlow() {
                 <Text sx={styles.wrapper.subTitle}>{item.fecha}</Text>
                 <Text sx={styles.wrapper.subTitle}>{item.lugar}</Text>
                 <Text sx={styles.wrapper.subTitle}>{item.lugar2}</Text>
+                <Text sx={styles.wrapper.subTitle}>{item.description}</Text>
               </Box>
             </Box>
           ))}
