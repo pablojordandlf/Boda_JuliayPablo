@@ -8,7 +8,7 @@ import { FaHotel } from 'react-icons/fa';
 import Hotel1 from 'assets/01_Enara.png';
 import Hotel2 from "assets/01_Gareus.png";
 import Hotel3 from "assets/01_zenit_elcoloquio.png";
-import Hotel4 from "assets/felipe4.png";
+import Hotel_4 from "assets/felipe4.png";
 import Hotel5 from "assets/olid.png";
 
 const data = [
@@ -71,7 +71,7 @@ const data = [
   },
   {
     id: 4,
-    imgSrc: Hotel4,
+    imgSrc: Hotel_4,
     altText: 'HOTEL FELIPE IV',
     title: 'HOTEL FELIPE IV',
     phone:'983 30 70 00',

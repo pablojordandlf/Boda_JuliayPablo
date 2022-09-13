@@ -255,6 +255,7 @@ export default function Pucelana() {
         </Box>
       </Container>
 
+      <SectionHeader />
       <SectionHeader 
         slogan4 = "¡Ah! No olvides pedir tu tapa con un buen vino de la tierra (os recomendamos Ribera de Duero para el vino tinto, y Rueda para el vino blanco)"
       />
