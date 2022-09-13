@@ -43,7 +43,7 @@ export default function Pucelana() {
       <SectionHeader 
         title = "LA PUCELANA"
         slogan = "Para los que venís de fuera, hemos preparado "
-        slogan3 = "Un recorrido con los restaurantes que más nos gustan para poder tapear como un pucelano más"
+        slogan3 = "Un recorrido por los restaurantes que más nos gustan para poder tapear como un pucelano más"
         slogan4 = "¡Ah! No olvides pedir tu tapa con un buen vino de la tierra."
       />
 
