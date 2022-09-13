@@ -3,13 +3,13 @@ import { jsx } from 'theme-ui';
 import { Container, Grid } from 'theme-ui';
 import SectionHeader from 'components/section-header';
 import TeamCard from 'components/team-card';
-import {  FaHotel } from 'react-icons/fa';
+import { FaHotel } from 'react-icons/fa';
 
 import Hotel1 from 'assets/01_Enara.png';
 import Hotel2 from "assets/01_Gareus.png";
-import Hotel3 from "assets/01_zenit_elcoloquio.png"
-import Hotel4 from "assets/felipe4.png"
-import Hotel5 from "assets/olid.png"
+import Hotel3 from "assets/01_zenit_elcoloquio.png";
+import Hotel4 from "assets/felipe4.png";
+import Hotel5 from "assets/olid.png";
 
 const data = [
   {
@@ -19,6 +19,8 @@ const data = [
     title: 'HOTEL ENARA',
     phone:'983 30 02 11',
     designation: '-10% Descuento',
+    designation2: '',
+    designation3: '',
     socialProfile: [
       {
         id: 1,
@@ -36,6 +38,8 @@ const data = [
     title: 'HOTEL GAREUS',
     phone:'983 21 43 33',
     designation: '-10% Descuento',
+    designation2: '',
+    designation3: '',
     socialProfile: [
       {
         id: 1,
@@ -53,6 +57,8 @@ const data = [
     title: 'HOTEL COLOQUIO DE LOS PERROS',
     phone:'983 04 40 35',
     designation: '-5€ / noche y habitación',
+    designation2: '',
+    designation3: '',
     socialProfile: [
       {
         id: 1,
@@ -70,6 +76,8 @@ const data = [
     title: 'HOTEL FELIPE IV',
     phone:'983 30 70 00',
     designation: 'Precio: 88 € / noche y habitación',
+    designation2: '',
+    designation3: '',
     socialProfile: [
       {
         id: 1,

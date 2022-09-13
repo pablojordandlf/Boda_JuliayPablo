@@ -13,10 +13,10 @@ export default function TeamCard({ src, altText, title, designation, designation
         <Text key={`designation-${title}`} className="info__designation" sx={styles.infoWrapper.designation}>
           {designation}
         </Text>
-        <Text key={`designation2-${title}`} className="info__designation" sx={styles.infoWrapper.designation}>
+        <Text key={`designation-${title}`} className="info__designation" sx={styles.infoWrapper.designation}>
           {designation2}
         </Text>
-        <Text key={`designation3-${title}`} className="info__designation" sx={styles.infoWrapper.designation}>
+        <Text key={`designation-${title}`} className="info__designation" sx={styles.infoWrapper.designation}>
           {designation3}
         </Text>
 

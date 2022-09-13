@@ -44,7 +44,7 @@ export default function Pucelana() {
         title = "LA PUCELANA"
         slogan = "Para los que venís de fuera, hemos preparado "
         slogan3 = "Un recorrido con los restaurantes que más nos gustan para poder tapear como un pucelano más"
-        slogan4 = "¡Ah! No olvides pedir tu tapa con un buen vino de la tierra (os recomendamos Ribera de Duero para el vino tinto, y Rueda para el vino blanco)"
+        slogan4 = "¡Ah! No olvides pedir tu tapa con un buen vino de la tierra."
       />
 
       <Container sx={styles.containerBox}>
