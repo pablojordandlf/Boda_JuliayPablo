@@ -15,7 +15,7 @@ import desayuno from 'assets/desayuno.png'
 const data = [
   {
     id: 1,
-    title: 'PUCELANA + PRE-BODA',
+    title: 'PRE-BODA',
     fecha: '📅 2 de junio',
     lugar: '📍 Sigue tu Pucelana y nos vemos',
     lugar2: 'a las 23:00 en Café Julepe',
