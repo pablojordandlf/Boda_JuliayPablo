@@ -63,7 +63,6 @@ export default function Pucelana() {
         <Box sx={styles.thumbnail}>
           <Image src={Zagales} alt="Zagales" />
         </Box>
-        
       </Container>
       
 
@@ -73,7 +72,7 @@ export default function Pucelana() {
             subTitle="Tasquita"
             title="C/ de la Caridad, 2, Valladolid"
             description="Recomentación: Solomillo al Roquefort, imprescindible."
-            description2="Las tostas de gambas no están mal, pero no os recomendamos llenar el buche en las primeras paradas de la ruta."
+            description2="Las tostas de gambas y el tartar están muy buenos también, pero no os recomendamos llenar el buche en las primeras paradas de la ruta."
             description3=""
             btnName=""
             btnURL=""
@@ -140,8 +139,8 @@ export default function Pucelana() {
           <TextFeature
             subTitle="Villa Paramesa"
             title="Plaza Martí y Monsó, 4, Valladolid"
-            description="Recomendaciones: Los Tres cerditos y Ceviche de Sardina"
-            description2=""
+            description="Recomendaciones: Los Tres cerditos y Camarón mexicano"
+            description2="Uno de los pesos pesados de la gastronomía vallisoletana."
             description3=""
             btnName=""
             btnURL=""
@@ -158,7 +157,7 @@ export default function Pucelana() {
             subTitle="Jero"
             title="C/ Calle Correos, 11, Valladolid"
             description="Recomendaciones: La variedad de tapas de este sitio es brutal, así que la recomendación es acercarse a la barra y elegir lo que más os entre por los ojos."
-            description2=""
+            description2="El Castellano, el Rajao y la mini hamburguesa siempre son buenas opciones"
             description3=""
             btnName=""
             btnURL=""
@@ -256,9 +255,9 @@ export default function Pucelana() {
       </Container>
 
       
-      <SectionHeader 
+      {/*<SectionHeader 
         slogan4 = "¡Ah! No olvides pedir tu tapa con un buen vino de la tierra (os recomendamos Ribera de Duero para el vino tinto, y Rueda para el vino blanco)"
-      />
+      />*/}
 
     </section>
   );
