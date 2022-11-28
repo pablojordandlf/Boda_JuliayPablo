@@ -9,7 +9,7 @@ const data = {
   subTitle: 'LAGO DE MAITO',
   title: 'CÓMO LLEGAR A LA FINCA',
   description1: 'Hay servicio de buses que os llevarán y recogerán.',
-  description2: 'Para los que vais en coche, en el enlace podéis encontrar la ruta.',
+  description2: 'Para los que vais en coche, en el enlace podéis encontrar la ruta en Google Maps.',
   description3: '',  
   btnName: 'Ruta a Lago de Maito',
   btnURL: 'https://www.google.com/maps/d/u/0/viewer?mid=1LZ4rFIplzlpg0Wn92wS5OCpn72s7Sy4&ll=41.614079474302414%2C-4.692148300000003&z=13',
