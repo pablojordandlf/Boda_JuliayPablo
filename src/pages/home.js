@@ -6,6 +6,7 @@ import Banner_Boda from '../sections/01_banner_boda';
 import Bienvenida from '../sections/02_bienvenida';
 import WorkFlow from '../sections/03_workflow';
 import Detalle_01 from '../sections/04_detalle_01';
+import Detalle_02 from '../sections/04_detalle_02';
 import Regalo from '../sections/99_regalo';
 import Hoteles from '../sections/05_hoteles';
 import Form from '../sections/06_form';
@@ -21,6 +22,7 @@ export default function Home() {
       <Bienvenida targetDate={dateTime}/>
       <WorkFlow /> {/*INFORMACIÓN BÁSICA*/}
       <Detalle_01 />
+      <Detalle_02 />
       <Hoteles />
       <Form />
       <Regalo />

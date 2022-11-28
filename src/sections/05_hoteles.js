@@ -10,6 +10,7 @@ import Hotel2 from "assets/01_Gareus.png";
 import Hotel3 from "assets/01_zenit_elcoloquio.png";
 import Hotel4 from "assets/felipe_iv.png";
 import Hotel5 from "assets/olid.png";
+import Hotel6 from "assets/logo_blanco.png"
 
 const data = [
   {
@@ -76,7 +77,7 @@ const data = [
     title: 'HOTEL FELIPE IV',
     phone:'983 30 70 00',
     designation: 'Precio: 88 € / noche y habitación',
-    designation2: '',
+    designation2: 'Por favor, comprobad antes los precios de su web.',
     designation3: '',
     socialProfile: [
       {
@@ -107,7 +108,26 @@ const data = [
     ],
     email: "reservas@hotelolid.com"
   },
-
+  ,
+  {
+    id: 6,
+    imgSrc: Hotel6,
+    altText: 'Apartamentos Plaza Mayor',
+    title: 'Apartamentos Plaza Mayor',
+    phone:'666 07 22 92',
+    designation: '',
+    designation2: '',
+    designation3: '',
+    socialProfile: [
+      {
+        id: 1,
+        name: 'LinkedIn',
+        path: 'https://plazamayorapartamentos.com/',
+        icon: <FaHotel />,
+      },
+    ],
+    email: "info@plazamayorapartamentos.com"
+  },
 ];
 
 export default function TeamSection() {
