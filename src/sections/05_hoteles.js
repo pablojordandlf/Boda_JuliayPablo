@@ -92,7 +92,7 @@ const data = [
   {
     id: 5,
     imgSrc: Hotel5,
-    altText: 'HOTEL OLID',
+    altText: 'Apartamentos Catedral',
     title: 'HOTEL OLID',
     phone:'983 35 72 00',
     designation: 'Precio: 70 € habitación doble',
