@@ -76,7 +76,7 @@ const data = [
     title: 'HOTEL FELIPE IV',
     phone:'983 30 70 00',
     designation: 'Precio: 88 € / noche y habitación',
-    designation2: '',
+    designation2: 'C',
     designation3: '',
     socialProfile: [
       {
@@ -91,7 +91,7 @@ const data = [
   {
     id: 5,
     imgSrc: Hotel5,
-    altText: 'HOTEL OLID',
+    altText: 'Apartamentos Catedral',
     title: 'HOTEL OLID',
     phone:'983 35 72 00',
     designation: 'Precio: 70 € habitación doble',
@@ -107,7 +107,25 @@ const data = [
     ],
     email: "reservas@hotelolid.com"
   },
-
+  {
+    id: 6,
+    imgSrc: Hotel5,
+    altText: 'Apartamentos Plaza Mayor',
+    title: 'Apartamentos Plaza Mayor',
+    phone:'666 07 22 92',
+    designation: '',
+    designation2: '',
+    designation3: '',
+    socialProfile: [
+      {
+        id: 1,
+        name: 'LinkedIn',
+        path: 'https://plazamayorapartamentos.com/',
+        icon: <FaHotel />,
+      },
+    ],
+    email: "info@plazamayorapartamentos.com"
+  },
 ];
 
 export default function TeamSection() {
