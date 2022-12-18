@@ -115,7 +115,7 @@ const data = [
     altText: 'Apartamentos Plaza Mayor',
     title: 'Apartamentos Plaza Mayor',
     phone:'666 07 22 92',
-    designation: 'info@plazamayorapartamentos.com',
+    designation: '',
     designation2: '',
     designation3: '',
     socialProfile: [
