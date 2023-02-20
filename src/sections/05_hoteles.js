@@ -19,7 +19,7 @@ const data = [
     altText: 'HOTEL ENARA',
     title: 'HOTEL ENARA',
     phone:'983 30 02 11',
-    designation: '-10% Descuento',
+    designation: 'CÓDIGO -10%: BODJUPA0306',
     designation2: '',
     designation3: '',
     socialProfile: [
